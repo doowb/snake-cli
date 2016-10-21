@@ -10,26 +10,58 @@
   },
   "license": "Released under the MIT license.",
   "files": [
+    "cli.js",
     "index.js",
     "LICENSE"
   ],
+  "main": "index.js",
   "bin": {
     "snake": "./cli.js"
   },
-  "main": "index.js",
+  "preferGlobal": true,
   "engines": {
     "node": ">=0.10.0"
   },
   "scripts": {
     "test": "mocha"
   },
-  "keywords": [
-    "cli",
-    "snake"
-  ],
   "dependencies": {
     "readline-utils": "^0.1.2",
     "repeat-string": "^1.5.4",
     "window-size": "^0.2.0"
+  },
+  "devDependencies": {
+    "gulp-format-md": "^0.1.11",
+    "mocha": "^3.1.2"
+  },
+  "keywords": [
+    "cli",
+    "snake"
+  ],
+  "verb": {
+    "toc": false,
+    "layout": "global",
+    "tasks": [
+      "readme"
+    ],
+    "plugins": [
+      "gulp-format-md"
+    ],
+    "lint": {
+      "reflinks": true
+    },
+    "related": {
+      "list": [
+        "enquirer",
+        "readline-ui",
+        "readline-utils",
+        "repeat-string",
+        "window-size"
+      ]
+    },
+    "reflinks": [
+      "verb",
+      "verb-generate-readme"
+    ]
   }
 }
