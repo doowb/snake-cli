@@ -19,7 +19,7 @@ $ snake
 ```
 
 <p align="center">
-<img height="150" width="150" src="https://raw.githubusercontent.com/doowb/snake-cli/master/demo.gif">
+<img src="https://raw.githubusercontent.com/doowb/snake-cli/master/demo.gif">
 </p>
 
 ## API
