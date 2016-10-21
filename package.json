@@ -13,6 +13,9 @@
     "index.js",
     "LICENSE"
   ],
+  "bin": {
+    "snake": "./cli.js"
+  },
   "main": "index.js",
   "engines": {
     "node": ">=0.10.0"
@@ -23,5 +26,10 @@
   "keywords": [
     "cli",
     "snake"
-  ]
+  ],
+  "dependencies": {
+    "readline-utils": "^0.1.2",
+    "repeat-string": "^1.5.4",
+    "window-size": "^0.2.0"
+  }
 }
