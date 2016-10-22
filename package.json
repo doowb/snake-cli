@@ -8,16 +8,14 @@
   "bugs": {
     "url": "https://github.com/doowb/snake-cli/issues"
   },
-  "license": "Released under the MIT license.",
+  "license": "MIT",
   "files": [
     "cli.js",
-    "index.js",
-    "LICENSE"
+    "index.js"
   ],
-  "main": "index.js",
   "preferGlobal": true,
   "bin": {
-    "snake": "./cli.js"
+    "snake": "cli.js"
   },
   "engines": {
     "node": ">=0.10.0"
